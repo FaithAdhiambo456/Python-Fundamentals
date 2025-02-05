@@ -24,10 +24,11 @@ print()
 #Correct syntax
 print("Time taken in minutes", time_taken_min)
 
-#_total_memory = 0 should be
- #total_memory = 01
+#_total_memory = 0 should be as below without indentation
  
-#_total% =25 should not use % symbol
+_total_memory = 0
+print("Total memory:", _total_memory)
+#_total% =25 should not use % symbol, Variable names are a combination of letters, numbers and underscores alone; not other symbols or reserved words. Also variable names cannot start with a number,,they can only start with a letter or an underscore(with no indentation)
 
 #this variable is correct
 totalPercentage =10
@@ -36,9 +37,13 @@ totalPercentage =10
 firstPass = 3
 
 myName = "Faith Adhiambo"
+print(myName)
 
 #should not use reserved words
-#class = "CIS 415"
+#class = "CIS 415"  You could say:
+myclass = "CIS 415"
+print("My name is", myName, "and my class is", myclass)
+
 
 fruits = "Apples and Oranges"
 numApples=10
